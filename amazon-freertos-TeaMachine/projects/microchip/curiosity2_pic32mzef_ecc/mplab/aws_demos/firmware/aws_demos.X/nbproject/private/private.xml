@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/AWS3_2/amazon-freertos/libraries/c_sdk/aws/defender/src/aws_iot_defender_collector.c</file>
+            <file>file:/D:/AWS3_2/amazon-freertos/libraries/abstractions/platform/include/platform/iot_metrics.h</file>
+            <file>file:/D:/AWS3_2/amazon-freertos/vendors/microchip/boards/curiosity2_pic32mzef/aws_demos/config_files/aws_secure_sockets_config.h</file>
+            <file>file:/D:/AWS3_2/amazon-freertos/demos/include/aws_clientcredential_keys.h</file>
+        </group>
+    </open-files>
+</project-private>
