@@ -20,7 +20,7 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
+#include "definitions.h"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -41,7 +41,7 @@
  */
 void vTurnOffPTOV(void)
 {
-	
+	GPIO_PB05_PTOV_Set();
 }
 /*******************************************************************************
   Function:
@@ -50,7 +50,10 @@ void vTurnOffPTOV(void)
   Summary:
     Api function to turn off the storage tank input valve.
  */
-void vTurnOffSTIV(void);
+void vTurnOffSTIV(void)
+{
+    GPIO_PA07_STIV_OUT_Set();
+}
 
 /*******************************************************************************
   Function:
@@ -61,7 +64,7 @@ void vTurnOffSTIV(void);
  */
 void vTurnOnPreperationTankSteamInValve(void)
 {
-	
+	GPIO_PA23_PTSIV_OUT_Clear();
 }
 /*******************************************************************************
   Function:
@@ -72,7 +75,7 @@ void vTurnOnPreperationTankSteamInValve(void)
  */
 void vTurnOnPreperationTankSteamOutValve(void)
 {
-	
+	GPIO_PA22_PTSOV_OUT_Clear();
 }
 /*******************************************************************************
   Function:
