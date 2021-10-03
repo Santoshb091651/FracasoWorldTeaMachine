@@ -42,7 +42,7 @@
 #define TEA_SERVING_TIMEOUT                          (0u)
 #define MAX_PREPERATION_TANK_CLEANING_TIMEOUT        (0u)
 #define MAX_STORAGE_TANK_CLEANING_TIMEOUT            (0u)
-
+#define WATER_BOILING_POINT                          (100)
 /*******************************************************************************
  End of File
  */
